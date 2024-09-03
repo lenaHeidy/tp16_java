@@ -1,0 +1,26 @@
+[
+{
+    "title": "...",
+    "category": "MCQ",
+    "stimulus": "...",
+    "prompt": "<div>What is the color of the sky?</div>",
+    "choices": [
+        {"id": "a", "content": "<div>Red</div>"},
+        {"id": "b", "content": "<div>Blue</div>"}
+    ],
+    "points": 10,
+    "answers": [["b"]]
+},
+{
+    "title": "...",
+    "category": "MCQ",
+    "stimulus": "...",
+    "prompt": "<div>What is the color of the sky?</div>",
+    "choices": [
+        {"id": "a", "content": "<div>Red</div>"},
+        {"id": "b", "content": "<div>Blue</div>"}
+    ],
+    "points": 10,
+    "answers": [["b"]]
+}
+]

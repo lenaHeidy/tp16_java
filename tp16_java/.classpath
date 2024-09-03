@@ -23,5 +23,14 @@
 			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Jose/.m2/repository/org/json/json/20230618/json-20230618.jar" sourcepath="C:/Users/Jose/.m2/repository/org/json/json/20230618/json-20230618-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.json"/>
+			<attribute name="maven.artifactId" value="json"/>
+			<attribute name="maven.version" value="20230618"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
