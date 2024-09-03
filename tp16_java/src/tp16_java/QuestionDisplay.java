@@ -48,6 +48,7 @@ public class QuestionDisplay extends JFrame {
         nextButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                checkAnswer();
                 showNextQuestion();
             }
         });
@@ -74,6 +75,7 @@ public class QuestionDisplay extends JFrame {
                 Question.Choice choice = q.getChoices().get(i);
                 choiceButtons[i].setText(choice.getContent());
                 choiceButtons[i].setActionCommand(choice.getId());
+                choiceButtons[i].setSelected(false); // Deseleccionar opciones
             }
             currentQuestionIndex++;
         } else {
@@ -81,8 +83,26 @@ public class QuestionDisplay extends JFrame {
         }
     }
 
+    private void checkAnswer() {
+        if (currentQuestionIndex > 0) {
+            Question q = questions.get(currentQuestionIndex - 1);
+            String selectedChoiceId = getSelectedChoiceId();
+            if (q.getAnswers().stream().anyMatch(answer -> answer.contains(selectedChoiceId))) {
+                score += q.getPoints(); // Aumentar puntaje por respuesta correcta
+            }
+        }
+    }
+
+    private String getSelectedChoiceId() {
+        for (JRadioButton button : choiceButtons) {
+            if (button.isSelected()) {
+                return button.getActionCommand();
+            }
+        }
+        return null;
+    }
+
     private void showNextQuestion() {
-        // Aquí deberías implementar la lógica para verificar la respuesta y calcular el puntaje
         showQuestion();
     }
 

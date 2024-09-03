@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -18,18 +19,9 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="test">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jose/.m2/repository/org/json/json/20230618/json-20230618.jar" sourcepath="C:/Users/Jose/.m2/repository/org/json/json/20230618/json-20230618-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.json"/>
-			<attribute name="maven.artifactId" value="json"/>
-			<attribute name="maven.version" value="20230618"/>
-			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
