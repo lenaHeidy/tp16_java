@@ -14,7 +14,7 @@ public class QuestionDisplay extends JFrame {
     private int currentQuestionIndex = 0;
     private JLabel titleLabel;
     private JLabel stimulusLabel;
-    private JTextArea promptArea;
+    private JTextArea promptArea;	
     private JRadioButton[] choiceButtons;
     private JButton nextButton;
     private Timer timer;

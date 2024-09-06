@@ -4,19 +4,23 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class QuestionLoader {
-    public List<Question> loadQuestions(String filePath) throws Exception {
+
+    public List<Question> loadQuestionsFromFile(String filePath) throws IOException {
         List<Question> questions = new ArrayList<>();
-        FileReader reader = new FileReader(filePath);
         StringBuilder jsonContent = new StringBuilder();
-        int i;
-        while ((i = reader.read()) != -1) {
-            jsonContent.append((char) i);
+
+        try (FileReader reader = new FileReader(filePath)) {
+            int i;
+            while ((i = reader.read()) != -1) {
+                jsonContent.append((char) i);
+            }
         }
-        reader.close();
+
         JSONArray jsonArray = new JSONArray(jsonContent.toString());
         for (int j = 0; j < jsonArray.length(); j++) {
             JSONObject jsonObject = jsonArray.getJSONObject(j);
@@ -52,6 +56,7 @@ public class QuestionLoader {
 
             questions.add(question);
         }
+
         return questions;
     }
 }

@@ -3,101 +3,101 @@
     "title": "Java Basics",
     "category": "MCQ",
     "stimulus": "Fundamental Concepts",
-    "prompt": "¿Qué tipo de lenguaje es Java?",
+    "prompt": "¿Qué es el JVM en Java?",
     "choices": [
       {
         "id": "a",
-        "content": "Lenguaje de bajo nivel"
+        "content": "Java Virtual Machine"
       },
       {
         "id": "b",
-        "content": "Lenguaje de alto nivel"
+        "content": "Java Version Manager"
       },
       {
         "id": "c",
-        "content": "Lenguaje ensamblador"
+        "content": "Java Variable Model"
       },
       {
         "id": "d",
-        "content": "Lenguaje de máquina"
+        "content": "Java Visual Method"
       }
     ],
     "points": 10,
-    "answers": [ [ "b" ] ]
+    "answers": [ [ "a" ] ]
   },
   {
     "title": "Java Syntax",
     "category": "MCQ",
     "stimulus": "Syntax Rules",
-    "prompt": "¿Cómo se declara una variable de tipo entero en Java?",
+    "prompt": "¿Cuál es el tipo de dato primitivo que almacena valores de punto flotante en Java?",
     "choices": [
       {
         "id": "a",
-        "content": "int x;"
+        "content": "int"
       },
       {
         "id": "b",
-        "content": "integer x;"
+        "content": "float"
       },
       {
         "id": "c",
-        "content": "int xabcaaa1;"
+        "content": "char"
       },
       {
         "id": "d",
-        "content": "var x;"
+        "content": "boolean"
       }
     ],
     "points": 10,
-    "answers": [ [ "a"] ]
+    "answers": [ [ "b"] ]
   },
   {
     "title": "Java OOP",
     "category": "MCQ",
     "stimulus": "Object-Oriented Programming",
-    "prompt": "¿Qué es la encapsulación en Java?",
+    "prompt": "¿Cuál es el operador utilizado para concatenar cadenas en Java?",
     "choices": [
       {
         "id": "a",
-        "content": "La capacidad de una clase de heredar atributos y métodos de otra clase."
+        "content": "+"
       },
       {
         "id": "b",
-        "content": "La habilidad de un objeto para ser modificado por otros objetos."
+        "content": "*"
       },
       {
         "id": "c",
-        "content": "La práctica de ocultar los detalles internos de un objeto y exponer solo lo necesario."
+        "content": "&"
       },
       {
         "id": "d",
-        "content": "La habilidad de un objeto para cambiar su tipo durante la ejecución."
+        "content": "^"
       }
     ],
     "points": 10,
-    "answers": [ [ "c" ] ]
+    "answers": [ [ "a" ] ]
   },
   {
     "title": "Java Inheritance",
     "category": "MCQ",
     "stimulus": "Inheritance Concept",
-    "prompt": "¿Cómo se declara una clase que hereda de otra en Java?",
+    "prompt": "¿Cuál de las siguientes es una clase raíz de todas las clases en Java?",
     "choices": [
       {
         "id": "a",
-        "content": "class SubClass extends SuperClass {}"
+        "content": "Object"
       },
       {
         "id": "b",
-        "content": "class SubClass inherits SuperClass {}"
+        "content": "Class"
       },
       {
         "id": "c",
-        "content": "class SubClass : SuperClass {}"
+        "content": "Package"
       },
       {
         "id": "d",
-        "content": "class SubClass super SuperClass {}"
+        "content": "System"
       }
     ],
     "points": 10,
@@ -107,52 +107,26 @@
     "title": "Java Interfaces",
     "category": "MCQ",
     "stimulus": "Interface Implementation",
-    "prompt": "¿Cómo se define una interfaz en Java?",
+    "prompt": "¿Qué palabra clave se usa para definir una constante en Java?",
     "choices": [
       {
         "id": "a",
-        "content": "interface InterfaceName {}"
+        "content": "Static"
       },
       {
         "id": "b",
-        "content": "class InterfaceName {}"
+        "content": "final"
       },
       {
         "id": "c",
-        "content": "interface InterfaceName extends ClassName {}"
+        "content": "constant"
       },
       {
         "id": "d",
-        "content": "public class InterfaceName {}"
+        "content": "const"
       }
-    ],
+     ],
     "points": 10,
-    "answers": [ [ "a" ] ]
-  },
-  {
-    "title": "Java Exceptions",
-    "category": "MCQ",
-    "stimulus": "Exception Handling",
-    "prompt": "¿Cómo se maneja una excepción en Java?",
-    "choices": [
-      {
-        "id": "a",
-        "content": "try-catch block"
-      },
-      {
-        "id": "b",
-        "content": "error-handler block"
-      },
-      {
-        "id": "c",
-        "content": "handle block"
-      },
-      {
-        "id": "d",
-        "content": "catch-try block"
-      }
-    ],
-    "points": 10,
-    "answers": [ [ "a" ] ]
+    "answers": [ [ "b" ] ]
   }
 ]
