@@ -1,132 +1,195 @@
 [
-  {
-    "title": "Java Basics",
-    "category": "MCQ",
-    "stimulus": "Fundamental Concepts",
-    "prompt": "¿Qué es el JVM en Java?",
+
+
+
+ { 
+
+
+
+    "title": "Cultura general",
+
+    "category": "Geografia",
+
+    "stimulus": "",
+
+    "prompt": "<div>Capital de Italia</div>",
+
     "choices": [
-      {
-        "id": "a",
-        "content": "Java Virtual Machine"
-      },
-      {
-        "id": "b",
-        "content": "Java Version Manager"
-      },
-      {
-        "id": "c",
-        "content": "Java Variable Model"
-      },
-      {
-        "id": "d",
-        "content": "Java Visual Method"
-      }
+
+
+
+        {"id": "a", "content": "<div>Milan</div>"},
+
+        {"id": "b", "content": "<div>Caracas</div>"},
+
+        {"id": "c", "content": "<div>Roma</div>"},
+
+        {"id": "d", "content": "<div>Quitooooooo</div>"}
+
+
+
     ],
-    "points": 10,
-    "answers": [ [ "a" ] ]
-  },
-  {
-    "title": "Java Syntax",
-    "category": "MCQ",
-    "stimulus": "Syntax Rules",
-    "prompt": "¿Cuál es el tipo de dato primitivo que almacena valores de punto flotante en Java?",
+
+
+
+    "points": 2,
+
+    "answers": [["c"]]
+
+
+
+ },
+
+ { 
+
+
+
+    "category": "Biologia",
+
+    "stimulus": "",
+
+    "prompt": "<div>Organo principal en sistema circulatorio</div>",
+
     "choices": [
-      {
-        "id": "a",
-        "content": "int"
-      },
-      {
-        "id": "b",
-        "content": "float"
-      },
-      {
-        "id": "c",
-        "content": "char"
-      },
-      {
-        "id": "d",
-        "content": "boolean"
-      }
+
+
+
+        {"id": "a", "content": "<div>Corazon</div>"},
+
+        {"id": "b", "content": "<div>Higado</div>"},
+
+        {"id": "c", "content": "<div>Cerebro</div>"},
+
+        {"id": "d", "content": "<div>Intestino Grueso</div>"}
+
+
+
     ],
-    "points": 10,
-    "answers": [ [ "b"] ]
-  },
-  {
-    "title": "Java OOP",
-    "category": "MCQ",
-    "stimulus": "Object-Oriented Programming",
-    "prompt": "¿Cuál es el operador utilizado para concatenar cadenas en Java?",
+
+
+
+    "points": 2,
+
+    "answers": [["a"]]
+
+
+
+ },
+
+ {  
+
+
+
+    "title": "Cultura general",
+
+    "category": "Matematicas",
+
+    "stimulus": "",
+
+    "prompt": "<div>3+3x3/3-3</div>",
+
     "choices": [
-      {
-        "id": "a",
-        "content": "+"
-      },
-      {
-        "id": "b",
-        "content": "*"
-      },
-      {
-        "id": "c",
-        "content": "&"
-      },
-      {
-        "id": "d",
-        "content": "^"
-      }
-    ],
-    "points": 10,
-    "answers": [ [ "a" ] ]
-  },
-  {
-    "title": "Java Inheritance",
-    "category": "MCQ",
-    "stimulus": "Inheritance Concept",
-    "prompt": "¿Cuál de las siguientes es una clase raíz de todas las clases en Java?",
-    "choices": [
-      {
-        "id": "a",
-        "content": "Object"
-      },
-      {
-        "id": "b",
-        "content": "Class"
-      },
-      {
-        "id": "c",
-        "content": "Package"
-      },
-      {
-        "id": "d",
-        "content": "System"
-      }
-    ],
-    "points": 10,
-    "answers": [ [ "a" ] ]
-  },
-  {
-    "title": "Java Interfaces",
-    "category": "MCQ",
-    "stimulus": "Interface Implementation",
-    "prompt": "¿Qué palabra clave se usa para definir una constante en Java?",
-    "choices": [
-      {
-        "id": "a",
-        "content": "Static"
-      },
-      {
-        "id": "b",
-        "content": "final"
-      },
-      {
-        "id": "c",
-        "content": "constant"
-      },
-      {
-        "id": "d",
-        "content": "const"
-      }
+
+
+
+        {"id": "a", "content": "<div>9</div>"},
+
+        {"id": "b", "content": "<div>0</div>"},
+
+        {"id": "c", "content": "<div>3</div>"},
+
+        {"id": "d", "content": "<div>-3</div>"}
+
+
+
      ],
-    "points": 10,
-    "answers": [ [ "b" ] ]
-  }
+
+
+
+     "points": 2,
+
+  	 "answers": [["c"]]
+
+
+
+ },
+
+ { 
+
+
+
+     "title": "Cultura general",
+
+    "category": "Historia",
+
+    "stimulus": "",
+
+    "prompt": "<div>La 1ra Guerra Mundial empezo en...</div>",
+
+    "choices": [
+
+
+
+        {"id": "a", "content": "<div>1918</div>"},
+
+        {"id": "b", "content": "<div>1814</div>"},
+
+        {"id": "c", "content": "<div>1914</div>"},
+
+        {"id": "d", "content": "<div>1924</div>"}
+
+
+
+      ],
+
+
+
+     "points": 2,
+
+  	 "answers": [["c"]]
+
+
+
+ },
+
+ {
+
+
+
+     "title": "Cultura general",
+
+    "category": "Entretenimiento",
+
+    "stimulus": "",
+
+    "prompt": "<div>Cuales de estas peliculas no son de Adam Sandler</div>",
+
+    "choices": [
+
+
+
+        {"id": "a", "content": "<div>Esposa de mentira</div>"},
+
+        {"id": "b", "content": "<div>Sin hijos</div>"},
+
+        {"id": "c", "content": "<div>Son como niños</div>"},
+
+        {"id": "d", "content": "<div>El hijo del diablo</div>"}
+
+
+
+      ],
+
+
+
+     "points": 2,
+
+  	 "answers": [["b"]]
+
+
+
+ }
+
+
+
 ]
